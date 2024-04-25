@@ -25,11 +25,11 @@ Create and Run Virtual Environment
 Install Pytesseract for OCR task
 - The following three lines only need to run once:
 - pip install pytesseract
-- brew install tesseract 
+- brew install tesseract (for Mac users make sure you have Homebrew installed!)
 - Retrieve starter code from documentation: https://pypi.org/project/pytesseract/ using GitHub Desktop (or git clone)
 
 ## Instructions to reproduce the output 
-- git clone the repository 
+- git clone the repository (easiest way is to download GitHub Desktop)
 - cd into the code folder in terminal
 - run: python3 digitize_numbers.py 
 
@@ -94,7 +94,7 @@ Single options:
   --print-parameters    Print tesseract parameters.
 
 
-Here are some the guides that I referenced:
+Here are some guides that I referenced:
 - https://pypi.org/project/pytesseract/ 
 - https://pyimagesearch.com/2021/11/15/tesseract-page-segmentation-modes-psms-explained-how-to-improve-your-ocr-accuracy/ 
 - https://ai-facets.org/tesseract-ocr-best-practices/ 
