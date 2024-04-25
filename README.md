@@ -36,8 +36,8 @@ Install Pytesseract for OCR task
 The `output.txt` file contained in this repository was generated with the code available in the `code/` folder. The current version achieves a 93.33% accuracy on the given images, missing "12" at index 13, and ".66" at index 18.
 
 ## Reference
-Review the Tesseract Documentation
-By running the command: tesseract --help-extra, we are able to see the different possible configurations for OCR image detection by tesseract. I have highlighted the most relevant portions (OEM: OCR Engine Mode, PSM: Page Segmentation Mode) below
+- Review the Tesseract Documentation
+- By running the command: tesseract --help-extra, we are able to see the different possible configurations for OCR image detection by tesseract. I have highlighted the most relevant portions (OEM: OCR Engine Mode, PSM: Page Segmentation Mode) below
 
 Usage:
   tesseract --help | --help-extra | --help-psm | --help-oem | --version
